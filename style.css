@@ -23,14 +23,14 @@ body {
 }
 
 cite {
-    padding: 0 30px;
     margin-bottom: 3px;
     font-size: 22px;
     color: #575757;
 }
 
 .name-name {
-    font-size: 1.9rem;
+    font-size: 1.59rem;
+    font-style: normal;
 }
 
 .tc-red {
@@ -838,6 +838,7 @@ h4 {
 .black-background {
     background-color: rgba(54,69,119,0.8);
     padding: 40px 40px 40px 40px;
+    border-radius: 65px;
 }
 
 .bold-link {
@@ -918,7 +919,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -986,6 +987,12 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .title-design {
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+        font-size: 22px;
+    }
+    
     .page-container {
         overflow-x: hidden;
         position: relative;
