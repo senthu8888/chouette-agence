@@ -55,6 +55,8 @@ cite {
     font-size: 32px;
     font-weight: 700;
     text-shadow: 2px 4px 4px firebrick;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 a,
@@ -66,6 +68,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    text-shadow: 2px 2px 2px black;
 }
 
 #page-loading-blocs-notifaction {
@@ -734,7 +737,7 @@ label,
 }
 
 .hero-bloc-text {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .hero-bloc-text-sub {
@@ -827,8 +830,8 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: 60px;
+    /*margin-top: 50px;*/
 }
 
 .avatar {
@@ -879,7 +882,7 @@ h4 {
 }
 
 .btn-atomic-tangerine-submit:hover {
-    background: #F7BE4C!important;
+    background: #FFF!important;
     color: firebrick!important;
     border: 1px solid firebrick;
     box-shadow: 2px 2px 2px rgb(178,34,34);
